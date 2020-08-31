@@ -14,3 +14,5 @@
 $router->get('/', function () use ($router) {
     echo "HELLO";
 });
+
+$router->get('users', 'UserController@index');
